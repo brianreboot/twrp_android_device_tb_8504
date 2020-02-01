@@ -18,15 +18,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from device.mk
-$(call inherit-product, device/lenovo/tb_8504x/device.mk)
+$(call inherit-product, device/lenovo/tb_8504f/device.mk)
 
 # Time Zone data for recovery
 PRODUCT_COPY_FILES += \
 bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := full_tb_8504x
-PRODUCT_DEVICE := tb_8504x
+PRODUCT_NAME := full_tb_8504f
+PRODUCT_DEVICE := tb_8504f
 PRODUCT_BRAND := Lenovo
 PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_MODEL := Tab 4 8
