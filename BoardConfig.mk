@@ -68,14 +68,14 @@ BOARD_PERSISTIMAGE_PARTITION_SIZE := 33554432
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/lenovo/tb_8504x/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/lenovo/tb_8504f/recovery.fstab
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := false
 TW_INCLUDE_NTFS_3G := true
 TW_IGNORE_MISC_WIPE_DATA := true
 
 # SE policy
-BOARD_SEPOLICY_DIRS += device/lenovo/tb_8504x/sepolicy
+BOARD_SEPOLICY_DIRS += device/lenovo/tb_8504f/sepolicy
 
 # TWRP
 TW_THEME := portrait_hdpi
