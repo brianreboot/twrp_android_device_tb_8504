@@ -1,3 +1,3 @@
 I used the kernel from TB_8504F_USR_S001011_1810162054_Q12000_ROW_SVC
 
-I couldn't upload the kernel to this repo as it's 29.5 MB so after I synced it I manually dragged the kernel to device/lenovo/tb_8504f then compiled it.
+I couldn't upload the kernel to this repo as it's 29.5 MB so I'm including it in the releases as a .7z After cloning this repo you need to unzip this file in device/lenovo/tb_8504f before you compiled it.
