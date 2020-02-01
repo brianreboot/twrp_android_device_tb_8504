@@ -56,7 +56,7 @@ BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 earlycon=msm_hsl_uart,0x78B0000 androidboot.selinux=permissive enforcing=0
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS :=  --kernel_offset 0x08000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --second_offset 0x00f00000
-TARGET_PREBUILT_KERNEL := device/lenovo/tb_8504x/kernel
+TARGET_PREBUILT_KERNEL := device/lenovo/tb_8504f/kernel
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x4000000
